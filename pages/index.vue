@@ -1,72 +1,118 @@
 <template>
   <main>
 
-  <section>
-        <b-dropdown>
-            <button class="button is-primary" slot="trigger">
-                <span>Click me!</span>
-                <b-icon icon="menu-down"></b-icon>
-            </button>
+    <nav class="navbar is-transparent">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="https://bulma.io">
+      <img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28">
+    </a>
+    <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
 
-            <b-dropdown-item>Action</b-dropdown-item>
-            <b-dropdown-item>Another action</b-dropdown-item>
-            <b-dropdown-item>Something else</b-dropdown-item>
-        </b-dropdown>
-
-        <b-dropdown hoverable>
-            <button class="button is-info" slot="trigger">
-                <span>Hover me!</span>
-                <b-icon icon="menu-down"></b-icon>
-            </button>
-
-            <b-dropdown-item>Action</b-dropdown-item>
-            <b-dropdown-item>Another action</b-dropdown-item>
-            <b-dropdown-item>Something else</b-dropdown-item>
-        </b-dropdown>
-
-        <b-dropdown disabled>
-            <button class="button" slot="trigger">
-                <span>Disabled</span>
-                <b-icon icon="menu-down"></b-icon>
-            </button>
-
-            <b-dropdown-item>Action</b-dropdown-item>
-            <b-dropdown-item>Another action</b-dropdown-item>
-            <b-dropdown-item>Something else</b-dropdown-item>
-        </b-dropdown>
-
-        <b-dropdown>
-            <p class="tag is-success" slot="trigger">
-                Custom trigger
-            </p>
-
-            <b-dropdown-item>Action</b-dropdown-item>
-            <b-dropdown-item>Another action</b-dropdown-item>
-            <b-dropdown-item>Something else</b-dropdown-item>
-        </b-dropdown>
-    </section>
-
-  <section class="container">
-    <div>
-      <app-logo/>
-      <h1 class="title">
-        buefy-test
-      </h1>
-      <h2 class="subtitle">
-        Nuxt.js project
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green">Documentation</a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey">GitHub</a>
+  <div id="navbarExampleTransparentExample" class="navbar-menu">
+    <div class="navbar-start">
+      <a class="navbar-item" href="https://bulma.io/">
+        Home
+      </a>
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link" href="/documentation/overview/start/">
+          Docs
+        </a>
+        <div class="navbar-dropdown is-boxed">
+          <a class="navbar-item" href="/documentation/overview/start/">
+            Overview
+          </a>
+          <a class="navbar-item" href="https://bulma.io/documentation/modifiers/syntax/">
+            Modifiers
+          </a>
+          <a class="navbar-item" href="https://bulma.io/documentation/columns/basics/">
+            Columns
+          </a>
+          <a class="navbar-item" href="https://bulma.io/documentation/layout/container/">
+            Layout
+          </a>
+          <a class="navbar-item" href="https://bulma.io/documentation/form/general/">
+            Form
+          </a>
+          <hr class="navbar-divider">
+          <a class="navbar-item" href="https://bulma.io/documentation/elements/box/">
+            Elements
+          </a>
+          <a class="navbar-item is-active" href="https://bulma.io/documentation/components/breadcrumb/">
+            Components
+          </a>
+        </div>
       </div>
     </div>
-  </section>
+
+    <div class="navbar-end">
+
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link" href="/documentation/overview/start/">
+          Docs
+        </a>
+        <div class="navbar-dropdown is-boxed">
+          <a class="navbar-item" href="/documentation/overview/start/">
+            Overview
+          </a>
+          <a class="navbar-item" href="https://bulma.io/documentation/modifiers/syntax/">
+            Modifiers
+          </a>
+          <a class="navbar-item" href="https://bulma.io/documentation/columns/basics/">
+            Columns
+          </a>
+          <a class="navbar-item" href="https://bulma.io/documentation/layout/container/">
+            Layout
+          </a>
+          <a class="navbar-item" href="https://bulma.io/documentation/form/general/">
+            Form
+          </a>
+          <hr class="navbar-divider">
+          <a class="navbar-item" href="https://bulma.io/documentation/elements/box/">
+            Elements
+          </a>
+          <a class="navbar-item is-active" href="https://bulma.io/documentation/components/breadcrumb/">
+            Components
+          </a>
+        </div>
+      </div>
+
+      <div class="navbar-item">
+        <div class="field is-grouped">
+          <p class="control">
+            <a class="bd-tw-button button" data-social-network="Twitter" data-social-action="tweet" data-social-target="http://localhost:4000" target="_blank" href="https://twitter.com/intent/tweet?text=Bulma: a modern CSS framework based on Flexbox&amp;hashtags=bulmaio&amp;url=http://localhost:4000&amp;via=jgthms">
+              <span class="icon">
+                <i class="fab fa-twitter"></i>
+              </span>
+              <span>
+                Tweet
+              </span>
+            </a>
+          </p>
+          <p class="control">
+            <a class="button is-primary" href="https://github.com/jgthms/bulma/releases/download/0.7.1/bulma-0.7.1.zip">
+              <span class="icon">
+                <i class="fas fa-download"></i>
+              </span>
+              <span>Download</span>
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+
+<h1 class="yo">Yo, this is a test</h1>
+
+  
+  
   </main>
 </template>
 
@@ -81,6 +127,12 @@ export default {
 </script>
 
 <style>
+
+.yo {
+  font-family: Roboto, sans-serif;
+  font-size: 3rem;
+  color: darkblue;
+}
 .container {
   min-height: 100vh;
   display: flex;
