@@ -5,13 +5,8 @@
 </template>
 
 <style lang="scss">
-@import "~bulma/sass/utilities/_all";
 
-$primary: #e913e9;
-$secondary: blue;
-$primary-invert: findColorInvert($primary);
-$twitter: #4099FF;
-$twitter-invert: findColorInvert($twitter);
+
 
 /* Global Reset */
 *,
@@ -23,7 +18,7 @@ $twitter-invert: findColorInvert($twitter);
 }
 /* End Global Reset */
 
-$primary: rgb(235, 51, 189);
+
 
 html {
   // font-size: 62.5%; // 1rem = 10px  10px/16px = 62.5%

@@ -22,7 +22,7 @@
           Models
         </a>
         <div class="navbar-dropdown is-boxed">
-          <a class="navbar-item" href="/documentation/overview/start/">
+          <a class="navbar-item" href="#">
             Evora 410
           </a>
           <a class="navbar-item" href="https://bulma.io/documentation/modifiers/syntax/">
@@ -44,10 +44,14 @@
           <a class="navbar-item is-active" href="https://bulma.io/documentation/components/breadcrumb/">
             Components
           </a>
-        </div>
-        <div class="endpad"></div>
+        </div>                
       </div>
-
+      <div class="navbar-item">
+        <a class="test" href="#">
+          Company
+        </a>
+        </div>
+      <div class="endpad"></div>
       
       
     </div>
@@ -75,6 +79,7 @@ export default {
 
 <style lang="scss">
 
+
 .navbar-item {
   font-family: Roboto, sans-serif;
 }
@@ -85,7 +90,7 @@ export default {
 .yo {
   font-family: Roboto, sans-serif;
   font-size: 3rem;
-  color: darkblue;
+  color: secondary;
 }
 
 .endpad {

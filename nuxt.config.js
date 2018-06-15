@@ -14,6 +14,10 @@ module.exports = {
     ]
   },
 
+  css: [
+    'assets/scss/main.scss'
+  ],
+
   modules: [
     'nuxt-buefy',
   ],
