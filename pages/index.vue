@@ -90,7 +90,7 @@ export default {
 .yo {
   font-family: Roboto, sans-serif;
   font-size: 3rem;
-  color: secondary;
+   
 }
 
 .endpad {

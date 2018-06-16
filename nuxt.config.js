@@ -15,11 +15,18 @@ module.exports = {
   },
 
   css: [
-    'assets/scss/main.scss'
+    '@/assets/scss/main.scss'
   ],
 
   modules: [
     'nuxt-buefy',
+    'nuxt-sass-resources-loader'
+  ],
+
+  sassResources: [
+    '@/assets/scss/main.scss',
+    '@/assets/scss/index.scss',
+    
   ],
 
   /*
