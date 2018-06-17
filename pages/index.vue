@@ -82,9 +82,12 @@ export default {
 
 .navbar-item {
   font-family: Roboto, sans-serif;
+  color: $secondary;
 }
 
-
+.test {
+  color: #741c1c;
+}
 
 
 .yo {
@@ -102,10 +105,9 @@ export default {
   justify-content: center;
   align-items: top;
   text-align: center;
+
+  
 }
-
-
-
 
 
 .links {
