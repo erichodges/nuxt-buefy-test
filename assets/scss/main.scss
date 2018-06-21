@@ -6,8 +6,9 @@ $primary: #eb0cc6;
 $secondary: #6e0d0d;
 $link: blue;
 
-// $colors: (
-//   "primary": ($primary),
-//   "secondary": ($secondary)
-// );
+$colors: (
+  "primary": ($primary),
+  "secondary": ($secondary),
+  "active": ($link)
+);
 

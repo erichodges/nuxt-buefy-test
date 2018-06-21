@@ -41,7 +41,7 @@
           <a class="navbar-item" href="https://bulma.io/documentation/elements/box/">
             Elements
           </a>
-          <a class="navbar-item is-active" href="https://bulma.io/documentation/components/breadcrumb/">
+          <a class="navbar-item" href="https://bulma.io/documentation/components/breadcrumb/">
             Components
           </a>
         </div>                
@@ -77,22 +77,24 @@ export default {
 }
 </script>
 
+
+// Styles
 <style lang="scss">
 
 
 .navbar-item {
   font-family: Roboto, sans-serif;
-  color: $secondary;
+  
 }
 
-.test,
-.navbar-link {
-  color: #000;
+// .test,
+// .navbar-link {
+//   // color: #000;
 
-  &:hover {
-    color: $link;
-  }
-}
+//   &:hover {
+//     color: $link;
+//   }
+// }
 
 
 .yo {
