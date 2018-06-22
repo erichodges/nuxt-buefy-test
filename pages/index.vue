@@ -87,14 +87,19 @@ export default {
   
 }
 
-// .test,
-// .navbar-link {
-//   // color: #000;
+.test,
+.navbar-link {
+  // color: #000;
 
-//   &:hover {
-//     color: $link;
-//   }
-// }
+  &:hover {
+    color: $link;
+  }
+}
+
+.navbar-dropdown::after {
+  border-color: green;
+
+}
 
 
 .yo {
