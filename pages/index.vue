@@ -94,6 +94,9 @@ export default {
   &:hover {
     color: $link;
   }
+  &::after {
+    border-color: blue;
+  }
 }
 
 .navbar-dropdown::after {
