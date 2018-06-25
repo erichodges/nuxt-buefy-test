@@ -85,17 +85,23 @@ export default {
 .navbar-item {
   font-family: Roboto, sans-serif;
   
+  
 }
 
 .test,
 .navbar-link {
-  // color: #000;
-
+  color: #000;
+  
   &:hover {
     color: $link;
   }
+
   &::after {
-    border-color: blue;
+    border-color: #000;
+
+    &:hover {
+      border-color: green;
+    }
   }
 }
 
