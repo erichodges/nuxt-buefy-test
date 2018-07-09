@@ -1,63 +1,7 @@
 <template>
   <main class="main">
 
-    <nav class="navbar is-transparent">
-      <div class="navbar-brand">
-        <a class="navbar-item" href="#">
-          <img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" height="50">
-        </a>
-        <!-- <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div> -->
-      </div>
-
-    <div id="navbarExampleTransparentExample" class="navbar-menu">      
-
-    <div class="navbar-end">
-
-      <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link test" href="/documentation/overview/start/">
-          Models
-        </a>
-        <div class="navbar-dropdown is-boxed">
-          <a class="navbar-item" href="#">
-            Evora 410
-          </a>
-          <a class="navbar-item" href="https://bulma.io/documentation/modifiers/syntax/">
-            Modifiers
-          </a>
-          <a class="navbar-item" href="https://bulma.io/documentation/columns/basics/">
-            Columns
-          </a>
-          <hr class="navbar-divider">
-          <a class="navbar-item" href="https://bulma.io/documentation/layout/container/">
-            Layout
-          </a>
-          <a class="navbar-item" href="https://bulma.io/documentation/form/general/">
-            Form
-          </a>
-          
-          <a class="navbar-item" href="https://bulma.io/documentation/elements/box/">
-            Elements
-          </a>
-          <a class="navbar-item" href="https://bulma.io/documentation/components/breadcrumb/">
-            Components
-          </a>
-        </div>                
-      </div>
-      <div class="navbar-item">
-        <a class="test" href="#">
-          Company
-        </a>
-        </div>
-      <div class="endpad"></div>
-      
-      
-    </div>
-  </div>
-</nav>
+    
 
 
   <div class="container">
