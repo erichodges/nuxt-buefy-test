@@ -9,7 +9,10 @@ module.exports = {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'Nuxt.js project' }
     ],
-    link: [
+    script: [
+      { src:'https://use.fontawesome.com/releases/v5.0.7/js/all.js', async: true }
+    ],
+    link: [      
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
