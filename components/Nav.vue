@@ -17,10 +17,12 @@
         <div class="column right">
           <p class="navbar-item is-size-7 desktop has-text-black desktop">SHOP   </p>
           <p class="navbar-item is-size-7 desktop has-text-black desktop">SIGN IN</p>
-          <figure class="navbar-item image">
-            <i class="fas fa-3x fa-bars has-text-black"
-              style="width: 1rem; height: 1rem;"></i>
-          </figure>
+          <nuxt-link to="#">
+            <figure class="navbar-item image">
+              <i class="fas fa-3x fa-bars has-text-black"
+                style="width: 1rem; height: 1rem;"></i>
+            </figure>
+          </nuxt-link>
         </div>
       </div>
     </nav>
@@ -31,34 +33,35 @@
 
 </script>
 
+
 <style>
 
-section {
-  display: block;
-}
+  .section {
+    display: block;
+  }
 
-  .center, .center-column, .top, .right, .bottom, .left {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
+    .center, .center-column, .top, .right, .bottom, .left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-.center-column {
-    flex-direction: column;
-}
+  .center-column {
+      flex-direction: column;
+  }
 
-.top    { align-items:     flex-start; }
-.right  { justify-content: flex-end;   }
-.bottom { align-items:     flex-end;   }
-.left   { justify-content: flex-start; }
+  .top    { align-items:     flex-start; }
+  .right  { justify-content: flex-end;   }
+  .bottom { align-items:     flex-end;   }
+  .left   { justify-content: flex-start; }
 
-.single-spaced, .single-spaced * {
-    line-height: 1;
-}
+  .single-spaced, .single-spaced * {
+      line-height: 1;
+  }
 
-@media (max-width: 1024px) {
-	.desktop {
-		display: none;
-	}
-}
+  @media (max-width: 900px) {
+    .desktop {
+      display: none;
+    }
+  }
 </style>
